@@ -99,4 +99,8 @@ public class ResourceImpl implements javax.annotation.Resource
    {
       return javax.annotation.Resource.class;
    }
+
+   public String lookup() {
+      return "";
+   }
 }
